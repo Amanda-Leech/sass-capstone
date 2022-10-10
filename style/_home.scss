@@ -1,0 +1,106 @@
+.hero {
+  height: 800px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/home-img.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero .top {
+  display: flex;
+  height: 20%;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.hero .top .left-column {
+  color: white;
+  font-size: 30px;
+  width: 65%;
+}
+
+.hero .top .left-column:hover {
+  color: rgb(213, 206, 206);
+}
+
+.hero .top .right-column1 {
+  color: white;
+}
+
+.hero .top .right-column2 {
+  color: white;
+}
+
+.hero .top .right-column3 {
+  color: white;
+}
+
+@mixin hover {
+  background-color: rgb(223, 214, 214, 0.1);
+  color: rgb(223, 214, 214);
+  padding: 30px;
+}
+
+.hero .top .right-column1:hover {
+  @include hover;
+}
+
+.hero .top .right-column2:hover {
+  @include hover;
+}
+
+.hero .top .right-column3:hover {
+  @include hover;
+}
+
+.hero .top .right-button {
+  background-color: rgb(236, 11, 123);
+  border: none;
+  color: white;
+  padding: 30px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: ruby;
+  font-size: 18px;
+  border-radius: 50px;
+}
+
+.hero .top .right-button:hover {
+  color: rgb(213, 206, 206);
+  transition: 0.2s;
+}
+
+.hero .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.hero .bottom .middle1 {
+  color: white;
+  font-size: 100px;
+  margin: 40px;
+}
+
+.hero .bottom .middle2 {
+  color: white;
+  font-size: 25px;
+  margin: 20px;
+}
+
+.hero .bottom .middle-button {
+  background-color: rgb(236, 11, 123);
+  border: none;
+  color: white;
+  padding: 25px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: ruby;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 75px;
+}

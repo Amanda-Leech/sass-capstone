@@ -1,0 +1,146 @@
+.navbar {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  background-color: rgb(46, 41, 41);
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font: bold;
+}
+
+.navbar .middle-column {
+  width: 7%;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .middle-column:hover {
+  color: rgb(0, 170, 255);
+  transition: 0.2s;
+}
+
+.navbar .right-column {
+  width: 5%;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .right-column:hover {
+  color: rgb(0, 170, 255);
+  transition: 0.2s;
+}
+
+.hero {
+  height: 800px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/home-img.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero .top {
+  display: flex;
+  height: 20%;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.hero .top .left-column {
+  color: white;
+  font-size: 30px;
+  width: 65%;
+}
+
+.hero .top .left-column:hover {
+  color: rgb(213, 206, 206);
+}
+
+.hero .top .right-column1 {
+  color: white;
+}
+
+.hero .top .right-column2 {
+  color: white;
+}
+
+.hero .top .right-column3 {
+  color: white;
+}
+
+.hero .top .right-column1:hover {
+  background-color: rgba(223, 214, 214, 0.1);
+  color: rgb(223, 214, 214);
+  padding: 30px;
+}
+
+.hero .top .right-column2:hover {
+  background-color: rgba(223, 214, 214, 0.1);
+  color: rgb(223, 214, 214);
+  padding: 30px;
+}
+
+.hero .top .right-column3:hover {
+  background-color: rgba(223, 214, 214, 0.1);
+  color: rgb(223, 214, 214);
+  padding: 30px;
+}
+
+.hero .top .right-button {
+  background-color: rgb(236, 11, 123);
+  border: none;
+  color: white;
+  padding: 30px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: ruby;
+  font-size: 18px;
+  border-radius: 50px;
+}
+
+.hero .top .right-button:hover {
+  color: rgb(213, 206, 206);
+  transition: 0.2s;
+}
+
+.hero .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.hero .bottom .middle1 {
+  color: white;
+  font-size: 100px;
+  margin: 40px;
+}
+
+.hero .bottom .middle2 {
+  color: white;
+  font-size: 25px;
+  margin: 20px;
+}
+
+.hero .bottom .middle-button {
+  background-color: rgb(236, 11, 123);
+  border: none;
+  color: white;
+  padding: 25px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: ruby;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 75px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: o;
+  padding: 0;
+}/*# sourceMappingURL=styles.css.map */
