@@ -4,7 +4,6 @@
     url("../images/home-img.jpeg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -188,4 +187,47 @@
 
 .hero2 .grid .support .words {
   @include words;
+}
+
+.hero3 {
+  height: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("../images/city.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.hero3 .text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero3 .text .first {
+  font-size: 65px;
+  width: 100%;
+  color: white;
+  padding-left: 60px;
+  margin: 20px;
+}
+
+.hero3 .text .second {
+  font-size: 30px;
+  width: 100%;
+  color: white;
+  padding-left: 50px;
+  margin: 20px;
+}
+
+.hero3 .pict {
+  padding-right: 60px;
+  margin: 50px;
 }
